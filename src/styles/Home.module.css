@@ -1,0 +1,543 @@
+.section {
+    padding: 50px;
+    background-color: #fdf5f5;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4d4d4d;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 20px;
+}
+
+.cardbox {
+    /* background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; */
+    display: flex;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.reviewCount {
+    color: #cc52b2;
+    font-size: 18px;
+    position: absolute;
+}
+
+.date {
+    font-size: 12px;
+    color: #999;
+}
+
+.review {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ff0066;
+}
+
+.cardHeader {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.viewAllButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.viewAllButton:hover {
+    background-color: #e6005c;
+}
+
+.section {
+    padding: 3rem 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.reviewCount {
+    font-size: 0.875rem;
+}
+
+.button {
+    background-color: #d63c6d;
+    /* Tailwind's pink-500 */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    /* Tailwind's rounded */
+}
+
+.grid {
+    display: flex;
+    /* grid-template-columns: repeat(1, 1fr); */
+    gap: 2rem;
+    width: 1000px;
+    height: 1000px;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    /* Tailwind's border color */
+    border-radius: 0.5rem;
+    /* Tailwind's rounded-lg */
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    /* Tailwind's shadow-lg */
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.cardName {
+    font-size: 1.125rem;
+    /* Tailwind's text-lg */
+    font-weight: 600;
+}
+
+.cardDate {
+    font-size: 0.875rem;
+    /* Tailwind's text-sm */
+    color: #a0aec0;
+    /* Tailwind's gray-500 */
+}
+
+.rating {
+    margin-bottom: 0.5rem;
+}
+
+.cardComment {
+    color: #4a5568;
+    /* Tailwind's gray-700 */
+}
+
+.testimonials {
+    padding: 50px;
+    background-color: #fdf5f5;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4d4d4d;
+}
+
+.testimonialWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonialCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #f97316;
+    font-size: 18px;
+}
+
+.cardDate {
+    font-size: 12px;
+    color: #999;
+}
+
+.review {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ff0066;
+}
+
+.cardComment {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cardName {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #e6005c;
+}
+
+
+/* .testimonials {
+    padding: 50px;
+    background-color: #fdf5f5;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4d4d4d;
+}
+
+.testimonialWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonialCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #f97316;
+    font-size: 18px;
+}
+
+.date {
+    font-size: 12px;
+    color: #999;
+}
+
+.review {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ff0066;
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.viewAllButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.viewAllButton:hover {
+    background-color: #e6005c;
+} */
+
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 30%;
+}
+
+.stars {
+    color: #f39c12;
+    font-size: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.viewMoreButton {
+    background-color: #ff0080;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.viewMoreButton:hover {
+    background-color: #e6006e;
+}
+ */
+
+
+/* Container and background setup */
+
+
+/* .body {
+    background-color: #FAF3F0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #FAF3F0;
+} */
+
+
+/* .header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header .quoteIcon {
+    font-size: 3rem;
+    color: #FF4081;
+} */
+
+
+/* .header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.header p {
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
+} */
+
+
+/* .reviewHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.reviewHeader span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.reviewHeader button {
+    background-color: #FF4081;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.review-header button:hover {
+    background-color: #e0356b;
+}
+ */
+
+
+/* .testimonialGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+
+
+.testimonialCard {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.testimonialCard:hover {
+    transform: translateY(-5px);
+}
+ */
+
+
+/* .rating {
+    color: #FF4081;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profile-section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.profile-section .name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.profile-section .date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+
+
+.review-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.review-text p {
+    line-height: 1.5;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+} */
